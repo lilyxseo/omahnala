@@ -200,6 +200,31 @@ img {
   bottom: 0;
 }
 
+
+/* Masonry Grid Effect */
+.gallery-section {
+  background-color: var(--seccond);
+}
+.gallery-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-img:hover {
+  transform: scale(1.02);
+}
+
+.gallery-title {
+  color: #e7e7e7;
+}
+
+.gallery-desk {
+  color: #e7e7e7;
+}
+
+
 /* ===============================
      Footer Section
      =============================== */
@@ -287,6 +312,18 @@ img {
   padding: 8px 0;
   font-size: 18px;
   line-height: 1.5;
+}
+
+@media only screen and (min-width: 767px) {
+  .footer-menu-link li a::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 10px;
+    color: #fbaf32;
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
