@@ -62,7 +62,6 @@ img {
   -ms-user-select: none;
 }
 
-
 /* Loading Screen */
 .loading-screen {
   position: fixed;
@@ -84,11 +83,12 @@ img {
 
 /* Animasi Bounce */
 @keyframes bounce {
-  0%, 100% {
-      transform: translateY(0);
+  0%,
+  100% {
+    transform: translateY(0);
   }
   50% {
-      transform: translateY(-20px);
+    transform: translateY(-20px);
   }
 }
 
@@ -97,7 +97,6 @@ img {
   opacity: 0;
   visibility: hidden;
 }
-
 
 /* ===============================
      Header Section
@@ -125,7 +124,7 @@ img {
 }
 
 .navbar-nav li a.active {
-  color: var(--color-link)!important;
+  color: var(--color-link) !important;
 }
 
 /* ===============================
@@ -200,7 +199,6 @@ img {
   bottom: 0;
 }
 
-
 /* Masonry Grid Effect */
 .gallery-section {
   background-color: var(--seccond);
@@ -223,7 +221,6 @@ img {
 .gallery-desk {
   color: #e7e7e7;
 }
-
 
 /* ===============================
      Footer Section
@@ -314,16 +311,14 @@ img {
   line-height: 1.5;
 }
 
-@media only screen and (min-width: 767px) {
-  .footer-menu-link li a::before {
-    position: relative;
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 600;
-    margin-right: 10px;
-    color: #fbaf32;
-    font-size: 15px;
-  }
+.footer-menu-link li a::before {
+  position: relative;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  margin-right: 10px;
+  color: #fbaf32;
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -470,7 +465,6 @@ img {
   padding: 10px 10px 10px 55px;
   box-shadow: 0 24px 48px -15px rgba(153, 161, 170, 0.25);
 }
-
 
 @media only screen and (max-width: 479px) {
   .input-group {
