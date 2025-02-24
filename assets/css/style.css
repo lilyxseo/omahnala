@@ -54,6 +54,42 @@ body {
   font-style: normal;
 }
 
+/* Loading Screen */
+.loading-screen {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #ca8350; /* Warna coklat */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+}
+
+.loading-logo {
+  width: 170px; /* Sesuaikan ukuran logo */
+  height: auto;
+  animation: bounce 2s ease-in-out infinite alternate;
+}
+
+/* Animasi Bounce */
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+}
+
+/* Menghilangkan Loading */
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
 /* ===============================
      Header Section
      =============================== */
@@ -95,6 +131,11 @@ body {
      =============================== */
 .about {
   background-color: var(--seccond);
+}
+
+.about-space {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .about-tentang {
