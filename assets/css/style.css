@@ -54,6 +54,15 @@ body {
   font-style: normal;
 }
 
+img {
+  user-drag: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+
 /* Loading Screen */
 .loading-screen {
   position: fixed;
