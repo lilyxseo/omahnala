@@ -1,0 +1,72 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+ 
+:root {
+    --primary: #974f20;
+    --seccond: #ca8350;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.poppins {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.spartan {
+  font-family: "League Spartan", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Header */
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px #e2e2e2 solid;
+}
+
+.header-logo {
+  padding: 5px;
+}
+.header-title {
+    color: var(--seccond);
+}
+
+.header-menu a {
+  color: #363636c1;
+  font-size: 1.2em;
+}
+
+.header-menu a:hover {
+  color: var(--seccond);
+}
+
+/* Hero */
+.hero-title {
+    color: var(--seccond);
+}
+
+
+/* About */
+.about {
+    background-color: var(--seccond);
+}
+
+.about-tentang {
+  color: #e7e7e7;
+}
+
+.about-title {
+  color: #ffd77bc7;
+}
+
+/* Footer */
+.footer-title {
+  color: var(--seccond);
+}
