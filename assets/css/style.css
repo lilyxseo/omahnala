@@ -556,6 +556,22 @@ img {
   background-color: var(--color-white);
 }
 
+.about ul.list-unstyled {
+  padding-left: 0;
+}
+
+.about ul.list-unstyled li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.about ul.list-unstyled i {
+  font-size: 1.3rem;
+  color: var(--primary);
+}
+
 .hero-btn {
   color: var(--primary);
   border: 1px solid var(--primary);
