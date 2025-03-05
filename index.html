@@ -114,37 +114,113 @@
         </div>
     </div>
 
-    <section class="menu-section mt-5">
-        <div class="container">
-            <h1 class="text-center spartan m-0">Menu Kami</h1>
-            <p class="text-center spartan mb-3 h5">Nikmati makanan dan minuman tradisional yang tersedia di warkop</p>
-            <div class="row g-4">
-                <div class="col-12 col-md-6">
-                    <div class="menu-item d-flex flex-column flex-md-row align-items-center">
-                        <img src="https://ik.imagekit.io/bydrz/nala/menu1.webp?tr=w-700" alt="Menu 1"
-                            class="img-fluid w-100 w-md-50 mb-3 mb-md-0" width="700" height="700" loading="lazy">
-                        <div class="menu-content spartan text-center">
-                            <h4>Menu Makanan</h4>
-                            <p class="h6">Makanan tradisional dengan bahan terbaik. Tersedia makanan berat seperti Nasi
-                                Goreng, Mie
-                                Tektek, Mie Bangladesh, dan Dessert seperti Roti bakar dan Pisang bakar.</p>
+    <section class="menu-section mt-5 position-relative overflow-hidden">
+        <div class="container position-relative z-3">
+            <div class="section-header text-center mb-5">
+                <div class="floating-decor"></div>
+                <h1 class="section-title spartan mb-3">Jelajagi Rasa Nusantara</h1>
+                <p class="section-subtitle poppins">Dalam setiap suapan & tegukan</p>
+            </div>
+
+            <div class="row g-5 justify-content-center">
+                <!-- Menu Makanan -->
+                <div class="col-12 col-xl-10">
+                    <div class="menu-card food-card">
+                        <div class="row g-0 align-items-stretch">
+                            <!-- Menu Makanan (Bagian Gambar yang Diperbaiki) -->
+                            <div class="col-md-7 img-container">
+                                <div class="image-wrapper">
+                                    <!-- Tambahkan div wrapper baru untuk aspect ratio -->
+                                    <div class="aspect-ratio-keeper">
+                                        <img src="https://ik.imagekit.io/bydrz/nala/menu1.webp" alt="Menu Makanan"
+                                            class="img-fluid" loading="lazy">
+                                    </div>
+                                    <div class="gradient-overlay"></div>
+                                    <div class="price-bubble">Mulai 15k</div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-5 content-wrapper">
+                                <div class="menu-content p-4 p-lg-5">
+                                    <div class="category-tag">
+                                        <i class="bi bi-egg-fried me-2"></i>
+                                        <span>Makanan Hangat</span>
+                                    </div>
+
+                                    <h3 class="menu-title">Rasa Rumah yang Membumi</h3>
+
+                                    <div class="menu-items">
+                                        <div class="menu-item">
+                                            <div class="item-name">
+                                                <div class="decor-square"></div>
+                                                Nasi Goreng Kampung
+                                            </div>
+                                            <div class="item-dots"></div>
+                                            <div class="item-price">25k</div>
+                                        </div>
+                                        <!-- Tambahkan item lainnya -->
+                                    </div>
+
+                                    <div class="special-badge">
+                                        <i class="bi bi-star-fill"></i>
+                                        Best Seller 2024
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="menu-item d-flex flex-column flex-md-row align-items-center">
-                        <img src="https://ik.imagekit.io/bydrz/nala/menu2.webp?tr=w-700" alt="Menu 2"
-                            class="img-fluid w-100 w-md-50 mb-3 mb-md-0" width="700" height="700" loading="lazy">
-                        <div class="menu-content spartan text-center">
-                            <h4>Menu Minuman</h4>
-                            <p class="h6">Nikmati Minuman Signature Omah Nala seperti Kopsus, Nalaren, atau varian
-                                modern seperti
-                                Nalamel dan Macchiato untuk teman santap makanan Anda.</p>
+
+                <!-- Menu Minuman -->
+                <div class="col-12 col-xl-10">
+                    <div class="menu-card drink-card">
+                        <div class="row g-0 align-items-stretch flex-row-reverse">
+                            <div class="col-md-7 img-container">
+                                <div class="image-wrapper">
+                                    <img src="https://ik.imagekit.io/bydrz/nala/menu2.webp" alt="Menu Minuman"
+                                        class="img-fluid" loading="lazy">
+                                    <div class="gradient-overlay drink-overlay"></div>
+                                    <div class="price-bubble drink-bubble">Mulai 12k</div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-5 content-wrapper">
+                                <div class="menu-content p-4 p-lg-5">
+                                    <div class="category-tag drink-tag">
+                                        <i class="bi bi-cup-straw me-2"></i>
+                                        <span>Minuman Segar</span>
+                                    </div>
+
+                                    <h3 class="menu-title">Kesejukan Dalam Gelas</h3>
+
+                                    <div class="menu-items">
+                                        <div class="menu-item drink-item">
+                                            <div class="item-name">
+                                                <div class="decor-circle"></div>
+                                                Kopi Susu Nala
+                                            </div>
+                                            <div class="item-dots"></div>
+                                            <div class="item-price">18k</div>
+                                        </div>
+                                        <!-- Tambahkan item lainnya -->
+                                    </div>
+
+                                    <!-- Menu Minuman - Bagian Badge yang Diperbaiki -->
+                                    <div class="special-badge drink-badge">
+                                        <i class="bi bi-snow"></i>
+                                        Es Special
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Shape Elements -->
+        <div class="floating-leaf"></div>
+        <div class="texture-overlay"></div>
     </section>
 
     <section class="gallery-section py-5 my-5">
@@ -201,23 +277,40 @@
 
     <!-- Section Partner Kami -->
     <section class="partner-section py-5">
-        <div class="container text-center">
-            <h1 class="spartan fw-bold mb-4">Sponsor Kami</h1>
-            <p class="poppins mb-4">Terimakasih kepada <a href="https://instagram.com/abouttng" target="_blank">@abouttng</a> dan <a href="https://instagram.com/teman_football" target="_blank">@teman_football</a> karena menjadi sponsor dan telah mendukung warkop.</p>
-            <div class="row g-4 justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 text-center mb-5">
+                    <h2 class="section-title mb-3">Partner Kami</h2>
+                    <p class="section-subtitle">Terimakasih kepada sponsor yang telah mendukung kami</p>
+                </div>
+            </div>
+
+            <div class="row g-4 justify-content-center align-items-center">
                 <!-- Partner 1 -->
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="partner-logo">
-                        <img src="https://ik.imagekit.io/bydrz/nala/partner1.webp" alt="Partner 1" width="200"
-                            height="100" loading="lazy" class="img-fluid">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="partner-card">
+                        <a href="https://instagram.com/abouttng" target="_blank" class="partner-link">
+                            <img src="https://ik.imagekit.io/bydrz/nala/partner1.webp" alt="About TNG"
+                                class="img-fluid partner-logo" loading="lazy" width="200" height="100">
+                        </a>
                     </div>
                 </div>
+
                 <!-- Partner 2 -->
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="partner-logo">
-                        <img src="https://ik.imagekit.io/bydrz/nala/partner2.webp" alt="Partner 2" width="200"
-                            height="100" loading="lazy" class="img-fluid">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="partner-card">
+                        <a href="https://instagram.com/teman_football" target="_blank" class="partner-link">
+                            <img src="https://ik.imagekit.io/bydrz/nala/partner2.webp" alt="Teman Football"
+                                class="img-fluid partner-logo" loading="lazy" width="200" height="100">
+                        </a>
                     </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="partner-cta mb-0">Ingin menjadi partner? <a href="#contact"
+                            class="partner-cta-link">Hubungi Kami</a></p>
                 </div>
             </div>
         </div>
