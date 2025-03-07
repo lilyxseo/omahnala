@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
     <title>Warkop Omah Nala - Warkop nya orang Tangerang</title>
 
     <!-- CSS -->
@@ -24,6 +24,11 @@
     <!-- <link href="/assets/css/copy.css" rel="stylesheet"> -->
 
     <link rel="icon" type="image/png" href="https://ik.imagekit.io/bydrz/nala/nala.webp?tr=h-70,w-70" />
+
+
+    <!-- GLightbox -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -67,253 +72,425 @@
         </div>
     </div>
 
-    <div class="hero mt-2">
-        <div class="container col-xxl-8 px-4 pb-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 justify-content-center py-5">
+    <div class="hero position-relative overflow-hidden">
+        <!-- Shape Dekorasi -->
+        <div class="hero-shape-1"></div>
+        <div class="hero-shape-2"></div>
+        <div class="hero-shape-3"></div>
+
+        <div class="container col-xxl-8 px-4 pb-5 my-6">
+            <div class="row flex-lg-row-reverse align-items-center g-5 justify-content-center py-5 position-relative">
                 <div class="col-11 col-sm-8 col-lg-6">
-                    <img src="https://ik.imagekit.io/bydrz/nala/nala1.webp?tr=w-600,h=600"
-                        class="d-block mx-lg-auto img-fluid" alt="Hero" width="600" height="600" loading="lazy">
+                    <div class="hero-image-wrapper">
+                        <img src="https://ik.imagekit.io/bydrz/nala/nala1.webp"
+                            class="d-block mx-lg-auto img-fluid floating" alt="Hero" width="600" height="600"
+                            loading="lazy">
+                    </div>
                 </div>
                 <div class="col-12 col-lg-6 m-0">
-                    <h1 class="display-5 fw-bold poppins hero-title mb-2 mt-3">Warkop Omah Nala
-                    </h1>
+                    <h1 class="display-5 fw-bold poppins hero-title mb-2 mt-3">Warkop Omah Nala</h1>
                     <h2 class="poppins h6 fw-bold mb-4">#WarkopnyaOrangTangerang</h2>
-                    <p class="spartan h5 mb-2">Tempat Ngopi Nyaman Serasa Di Rumah<br>
-                        ⏰️ Bertamu : 11.00 s/d 02.00 WIB <br>
-                        📍Rumah Nala, Cimone, Kota Tangerang <br>
-                        📍Rumah Nala 2, On Progres</p>
+                    <p class="spartan h5 mb-2">
+                        Tempat Ngopi Nyaman Serasa Di Rumah<br>
+                        ⏰️ Bertamu : 11.00 s/d 02.00 WIB<br>
+                        📍Rumah Nala, Cimone, Kota Tangerang<br>
+                        📍Rumah Nala 2, On Progres
+                    </p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-3">
-                        <button type="button" class="hero-btn btn-lg px-4 me-md-2 spartan"><i class="bi bi-cup-hot"></i>
-                            Reservasi Sekarang</button>
+                        <button type="button" class="hero-btn btn-lg px-4 me-md-2 spartan pulse">
+                            <i class="bi bi-cup-hot"></i> Reservasi Sekarang
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="about my-5">
-        <div class="about-space">
-            <div class="container py-4">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <img src="https://ik.imagekit.io/bydrz/nala/jumbotron.webp?tr=w-300"
-                            class="d-block mx-auto img-fluid" alt="About pict" width="300" height="300" loading="lazy">
-                    </div>
-                    <div class="col-lg-6 py-5">
-                        <h1 class="h6 about-tentang mb-0 spartan">Tentang</h1>
-                        <h2 class="poppins about-title">Warkop Omah Nala</h2>
-                        <p class="fs-6 poppins about-desk text-justify">Sebuah warung kopi yang menghadirkan suasana
-                            hangat dan nyaman ala warkop tradisional dengan sentuhan modern. Terletak di jantung Cimone,
-                            kami menawarkan pengalaman ngopi yang autentik dengan racikan kopi pilihan dan hidangan khas
-                            warkop yang menggugah selera.
-                        </p>
-                        <button class="about-btn spartan" type="button">Selengkapnya</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <section class="menu-section mt-5 position-relative overflow-hidden">
-        <div class="container position-relative z-3">
-            <div class="section-header text-center mb-5">
-                <div class="floating-decor"></div>
-                <h1 class="section-title spartan mb-3">Jelajagi Rasa Nusantara</h1>
-                <p class="section-subtitle poppins">Dalam setiap suapan & tegukan</p>
-            </div>
-
-            <div class="row g-5 justify-content-center">
-                <!-- Menu Makanan -->
-                <div class="col-12 col-xl-10">
-                    <div class="menu-card food-card">
-                        <div class="row g-0 align-items-stretch">
-                            <!-- Menu Makanan (Bagian Gambar yang Diperbaiki) -->
-                            <div class="col-md-7 img-container">
-                                <div class="image-wrapper">
-                                    <!-- Tambahkan div wrapper baru untuk aspect ratio -->
-                                    <div class="aspect-ratio-keeper">
-                                        <img src="https://ik.imagekit.io/bydrz/nala/menu1.webp" alt="Menu Makanan"
-                                            class="img-fluid" loading="lazy">
-                                    </div>
-                                    <div class="gradient-overlay"></div>
-                                    <div class="price-bubble">Mulai 15k</div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-5 content-wrapper">
-                                <div class="menu-content p-4 p-lg-5">
-                                    <div class="category-tag">
-                                        <i class="bi bi-egg-fried me-2"></i>
-                                        <span>Makanan Hangat</span>
-                                    </div>
-
-                                    <h3 class="menu-title">Rasa Rumah yang Membumi</h3>
-
-                                    <div class="menu-items">
-                                        <div class="menu-item">
-                                            <div class="item-name">
-                                                <div class="decor-square"></div>
-                                                Nasi Goreng Kampung
-                                            </div>
-                                            <div class="item-dots"></div>
-                                            <div class="item-price">25k</div>
-                                        </div>
-                                        <!-- Tambahkan item lainnya -->
-                                    </div>
-
-                                    <div class="special-badge">
-                                        <i class="bi bi-star-fill"></i>
-                                        Best Seller 2024
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Menu Minuman -->
-                <div class="col-12 col-xl-10">
-                    <div class="menu-card drink-card">
-                        <div class="row g-0 align-items-stretch flex-row-reverse">
-                            <div class="col-md-7 img-container">
-                                <div class="image-wrapper">
-                                    <img src="https://ik.imagekit.io/bydrz/nala/menu2.webp" alt="Menu Minuman"
-                                        class="img-fluid" loading="lazy">
-                                    <div class="gradient-overlay drink-overlay"></div>
-                                    <div class="price-bubble drink-bubble">Mulai 12k</div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-5 content-wrapper">
-                                <div class="menu-content p-4 p-lg-5">
-                                    <div class="category-tag drink-tag">
-                                        <i class="bi bi-cup-straw me-2"></i>
-                                        <span>Minuman Segar</span>
-                                    </div>
-
-                                    <h3 class="menu-title">Kesejukan Dalam Gelas</h3>
-
-                                    <div class="menu-items">
-                                        <div class="menu-item drink-item">
-                                            <div class="item-name">
-                                                <div class="decor-circle"></div>
-                                                Kopi Susu Nala
-                                            </div>
-                                            <div class="item-dots"></div>
-                                            <div class="item-price">18k</div>
-                                        </div>
-                                        <!-- Tambahkan item lainnya -->
-                                    </div>
-
-                                    <!-- Menu Minuman - Bagian Badge yang Diperbaiki -->
-                                    <div class="special-badge drink-badge">
-                                        <i class="bi bi-snow"></i>
-                                        Es Special
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Shape Elements -->
-        <div class="floating-leaf"></div>
-        <div class="texture-overlay"></div>
-    </section>
-
-    <section class="gallery-section py-5 my-5">
-        <div class="container py-3">
-            <h1 class="text-center gallery-title spartan">Galeri Kami</h1>
-            <p class="text-center gallery-desk spartan mb-4 h5">Beberapa foto suasana dalam warkop yang sangat cocok
-                menjadi tempat cerita</p>
-            <div class="row g-3">
-                <div class="col-6 col-md-4 px-3 py-1">
-                    <a href="#" class="gallery-item" data-bs-toggle="modal" data-bs-target="#lightboxModal"
-                        data-img="https://ik.imagekit.io/bydrz/nala/galeri1.webp?tr=h-550">
-                        <img src="https://ik.imagekit.io/bydrz/nala/galeri1.webp?tr=h-550" loading="lazy"
-                            class="img-fluid gallery-img" height="550" alt="Gallery Image 1">
-                    </a>
-                </div>
-                <div class="col-6 col-md-4 px-3 py-1">
-                    <a href="#" class="gallery-item" data-bs-toggle="modal" data-bs-target="#lightboxModal"
-                        data-img="https://ik.imagekit.io/bydrz/nala/galeri2.webp?tr=h-550">
-                        <img src="https://ik.imagekit.io/bydrz/nala/galeri2.webp?tr=h-550" loading="lazy"
-                            class="img-fluid gallery-img" height="550" alt="Gallery Image 2">
-                    </a>
-                </div>
-                <div class="col-6 col-md-4 px-3 py-1">
-                    <a href="#" class="gallery-item" data-bs-toggle="modal" data-bs-target="#lightboxModal"
-                        data-img="https://ik.imagekit.io/bydrz/nala/galeri3.webp?tr=h-550">
-                        <img src="https://ik.imagekit.io/bydrz/nala/galeri3.webp?tr=h-550" loading="lazy"
-                            class="img-fluid gallery-img" height="550" alt="Gallery Image 3">
-                    </a>
-                </div>
-                <div class="col-6 col-md-4 px-3 py-1">
-                    <a href="#" class="gallery-item" data-bs-toggle="modal" data-bs-target="#lightboxModal"
-                        data-img="https://ik.imagekit.io/bydrz/nala/galeri4.webp?tr=h-550">
-                        <img src="https://ik.imagekit.io/bydrz/nala/galeri4.webp?tr=h-550" loading="lazy"
-                            class="img-fluid gallery-img" height="550" alt="Gallery Image 4">
-                    </a>
-                </div>
-                <div class="col-6 col-md-4 px-3 py-1">
-                    <a href="#" class="gallery-item" data-bs-toggle="modal" data-bs-target="#lightboxModal"
-                        data-img="https://ik.imagekit.io/bydrz/nala/galeri5.webp?tr=h-550">
-                        <img src="https://ik.imagekit.io/bydrz/nala/galeri5.webp?tr=h-550" loading="lazy"
-                            class="img-fluid gallery-img" height="550" alt="Gallery Image 5">
-                    </a>
-                </div>
-                <div class="col-6 col-md-4 px-3 py-1">
-                    <a href="#" class="gallery-item" data-bs-toggle="modal" data-bs-target="#lightboxModal"
-                        data-img="https://ik.imagekit.io/bydrz/nala/galeri6.webp?tr=h-550">
-                        <img src="https://ik.imagekit.io/bydrz/nala/galeri6.webp?tr=h-550" loading="lazy"
-                            class="img-fluid gallery-img" height="550" alt="Gallery Image 6">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Partner Kami -->
-    <section class="partner-section py-5">
+    <!-- HTML -->
+    <section class="about-alt">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10 col-lg-8 text-center mb-5">
-                    <h2 class="section-title mb-3">Partner Kami</h2>
-                    <p class="section-subtitle">Terimakasih kepada sponsor yang telah mendukung kami</p>
+            <div class="about-header text-center mb-5">
+                <p class="subtitle">Discover Our Story</p>
+                <h2 class="display-4 fw-bold poppins mb-3">Crafting Coffee Culture<br>Since 2019</h2>
+            </div>
+
+            <div class="about-container">
+                <div class="about-visuals">
+                    <div class="main-image-wrapper">
+                        <img src="https://ik.imagekit.io/bydrz/nala/nala.webp" alt="Coffee Experience"
+                            class="main-img scale-hover">
+                    </div>
+
+                    <div class="feature-grid">
+                        <!-- Feature Item 1 (Jam Operasional) -->
+                        <div class="feature-item">
+                            <div class="icon-wrapper">
+                                <i class="bi bi-clock"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Jam Operasional</h3>
+                                <p>Buka Lengkap 11.00 - 02.00 WIB</p>
+                            </div>
+                        </div>
+
+                        <!-- Feature Item 2 (Tetap Pertahankan yang ini) -->
+                        <div class="feature-item">
+                            <div class="icon-wrapper">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Lokasi Strategis</h3>
+                                <p>2 cabang di wilayah Tangerang</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <div class="content-block">
+                        <h3 class="poppins mb-4">Warung Kopi dengan Nuansa Rumahan</h3>
+                        <div class="description">
+                            <p>Warkop Omah Nala menghadirkan pengalaman ngopi tradisional dengan sentuhan modern. Kami
+                                memadukan racikan kopi autentik dengan suasana santai layaknya di rumah sendiri.</p>
+
+                            <ul class="about-list">
+                                <li>
+                                    <i class="bi bi-check2-circle"></i>
+                                    Free Wifi Berkecepatan Tinggi
+                                </li>
+                                <li>
+                                    <i class="bi bi-check2-circle"></i>
+                                    Area Merokok & Non-Rokok
+                                </li>
+                                <li>
+                                    <i class="bi bi-check2-circle"></i>
+                                    Parkir Luas & Aman
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Ganti bagian signature dengan ini -->
+                        <div class="about-cta">
+                            <div class="cta-content">
+                                <h4 class="poppins mb-3">Nikmati Atmosfer Ngopi Autentik</h4>
+                                <div class="d-flex gap-3 flex-wrap justify-content-center">
+                                    <a href="#menu" class="cta-btn primary">
+                                        <i class="bi bi-cup-hot me-2"></i>Lihat Menu
+                                    </a>
+                                    <a href="#locations" class="cta-btn secondary">
+                                        <i class="bi bi-geo-alt me-2"></i>Lokasi Kami
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shape-deco deco1"></div>
+    </section>
+
+    <section class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-subtitle">Signature Creations</h2>
+                <h1 class="section-title">Nusantara Flavors<br>Reimagined</h1>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Makanan -->
+                <article class="menu-item food-item">
+                    <div class="item-image">
+                        <img src="https://ik.imagekit.io/bydrz/nala/menu1.webp" alt="Nasi Goreng Kampung" loading="lazy"
+                            class="hover-zoom">
+                        <div class="image-overlay"></div>
+                        <span class="price-tag">25k</span>
+                    </div>
+
+                    <div class="item-content">
+                        <div class="item-meta">
+                            <span class="category">Main Course</span>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                4.9
+                            </div>
+                        </div>
+                        <h3 class="item-title">Nasi Goreng Kampung</h3>
+                        <p class="item-desc">Traditional wok-fried rice with homemade sambal</p>
+
+                        <div class="item-footer">
+                            <button class="order-btn">
+                                <i class="bi bi-cart-plus"></i>
+                                Add to Order
+                            </button>
+                            <div class="hot-indicator">
+                                <i class="bi bi-fire"></i>
+                                Best Seller
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Minuman -->
+                <article class="menu-item drink-item">
+                    <div class="item-image">
+                        <img src="https://ik.imagekit.io/bydrz/nala/menu2.webp" alt="Kopi Susu Nala" loading="lazy"
+                            class="hover-zoom">
+                        <div class="image-overlay"></div>
+                        <span class="price-tag">18k</span>
+                    </div>
+
+                    <div class="item-content">
+                        <div class="item-meta">
+                            <span class="category">Beverages</span>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                4.8
+                            </div>
+                        </div>
+                        <h3 class="item-title">Kopi Susu Nala</h3>
+                        <p class="item-desc">Velvety coffee with coconut milk foam</p>
+
+                        <div class="item-footer">
+                            <button class="order-btn">
+                                <i class="bi bi-cart-plus"></i>
+                                Add to Order
+                            </button>
+                            <div class="ice-indicator">
+                                <i class="bi bi-snow"></i>
+                                Iced Available
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- HTML -->
+    <section class="gallery-portrait">
+        <div class="container">
+            <div class="section-heading text-center mb-5">
+                <h2 class="poppins display-6 mb-3">Potret Keseharian Omah Nala</h2>
+                <div class="divider mx-auto"></div>
+            </div>
+
+            <div class="masonry-grid">
+                <!-- Item 1 -->
+                <div class="masonry-item">
+                    <div class="gallery-card">
+                        <a href="https://ik.imagekit.io/bydrz/nala/galeri1.webp" class="glightbox"
+                            data-gallery="gallery1"
+                            data-description="Senja di Teras - Nikmati sunset sambil menyeruput kopi terbaik"
+                            data-exif="ISO 200 | f/2.8 | 1/500s | 50mm">
+                            <img src="https://ik.imagekit.io/bydrz/nala/galeri1.webp" loading="lazy" alt="Coffee Time"
+                                class="portrait-img">
+                        </a>
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <h4>Kopi & Suasana</h4>
+                                <p>Racikan kopi spesial dengan suasana homey</p>
+                                <div class="overlay-actions">
+                                    <a href="https://ik.imagekit.io/bydrz/nala/galeri1.webp"
+                                        class="action-btn glightbox"
+                                        data-description="Senja di Teras - Nikmati sunset sambil menyeruput kopi terbaik">
+                                        <i class="bi bi-zoom-in"></i>
+                                    </a>
+                                    <button class="action-btn share-btn" data-url="https://omahnala.com/gallery1">
+                                        <i class="bi bi-share"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="masonry-item">
+                    <div class="gallery-card">
+                        <a href="https://ik.imagekit.io/bydrz/nala/galeri2.webp" class="glightbox"
+                            data-gallery="gallery1"
+                            data-description="Interior Modern - Dekorasi minimalis bernuansa natural"
+                            data-exif="ISO 400 | f/4 | 1/250s | 35mm">
+                            <img src="https://ik.imagekit.io/bydrz/nala/galeri2.webp" loading="lazy" alt="Interior"
+                                class="portrait-img">
+                        </a>
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <h4>Interior Modern</h4>
+                                <p>Dekorasi minimalis bernuansa natural</p>
+                                <div class="overlay-actions">
+                                    <a href="https://ik.imagekit.io/bydrz/nala/galeri2.webp"
+                                        class="action-btn glightbox"
+                                        data-description="Interior Modern - Dekorasi minimalis bernuansa natural">
+                                        <i class="bi bi-zoom-in"></i>
+                                    </a>
+                                    <button class="action-btn share-btn" data-url="https://omahnala.com/gallery2">
+                                        <i class="bi bi-share"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="masonry-item">
+                    <div class="gallery-card">
+                        <a href="https://ik.imagekit.io/bydrz/nala/galeri3.webp" class="glightbox"
+                            data-gallery="gallery1" data-description="Area Outdoor - Nongkrong santai di udara terbuka"
+                            data-exif="ISO 100 | f/5.6 | 1/1000s | 24mm">
+                            <img src="https://ik.imagekit.io/bydrz/nala/galeri3.webp" loading="lazy" alt="Outdoor"
+                                class="portrait-img">
+                        </a>
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <h4>Area Outdoor</h4>
+                                <p>Nongkrong santai di udara terbuka</p>
+                                <div class="overlay-actions">
+                                    <a href="https://ik.imagekit.io/bydrz/nala/galeri3.webp"
+                                        class="action-btn glightbox"
+                                        data-description="Area Outdoor - Nongkrong santai di udara terbuka">
+                                        <i class="bi bi-zoom-in"></i>
+                                    </a>
+                                    <button class="action-btn share-btn" data-url="https://omahnala.com/gallery3">
+                                        <i class="bi bi-share"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="masonry-item">
+                    <div class="gallery-card">
+                        <a href="https://ik.imagekit.io/bydrz/nala/galeri4.webp" class="glightbox"
+                            data-gallery="gallery1" data-description="Menu Spesial - Kreasi unik barista kami"
+                            data-exif="ISO 320 | f/2.8 | 1/200s | 85mm">
+                            <img src="https://ik.imagekit.io/bydrz/nala/galeri4.webp" loading="lazy" alt="Menu"
+                                class="portrait-img">
+                        </a>
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <h4>Menu Spesial</h4>
+                                <p>Kreasi unik barista kami</p>
+                                <div class="overlay-actions">
+                                    <a href="https://ik.imagekit.io/bydrz/nala/galeri4.webp"
+                                        class="action-btn glightbox"
+                                        data-description="Menu Spesial - Kreasi unik barista kami">
+                                        <i class="bi bi-zoom-in"></i>
+                                    </a>
+                                    <button class="action-btn share-btn" data-url="https://omahnala.com/gallery4">
+                                        <i class="bi bi-share"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="masonry-item">
+                    <div class="gallery-card">
+                        <a href="https://ik.imagekit.io/bydrz/nala/galeri5.webp" class="glightbox"
+                            data-gallery="gallery1" data-description="Acara Komunal - Tempat berkumpul komunitas"
+                            data-exif="ISO 400 | f/4 | 1/400s | 35mm">
+                            <img src="https://ik.imagekit.io/bydrz/nala/galeri5.webp" loading="lazy" alt="Event"
+                                class="portrait-img">
+                        </a>
+                        <div class="card-overlay">
+                            <div class="overlay-content">
+                                <h4>Acara Komunal</h4>
+                                <p>Tempat berkumpul komunitas</p>
+                                <div class="overlay-actions">
+                                    <a href="https://ik.imagekit.io/bydrz/nala/galeri5.webp"
+                                        class="action-btn glightbox"
+                                        data-description="Acara Komunal - Tempat berkumpul komunitas">
+                                        <i class="bi bi-zoom-in"></i>
+                                    </a>
+                                    <button class="action-btn share-btn" data-url="https://omahnala.com/gallery5">
+                                        <i class="bi bi-share"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Partner Kami - Versi Premium -->
+    <section class="partner-section py-6 position-relative overflow-hidden">
+        <div class="container">
+            <!-- Header Section -->
+            <div class="row justify-content-center mb-6">
+                <div class="col-12 col-lg-9 text-center">
+                    <div class="section-header">
+                        <h2 class="display-5 mb-3 fw-semibold">Kolaborasi Strategis Kami</h2>
+                        <p class="lead text-muted mb-4">Bersama mitra terpercaya menciptakan pengalaman terbaik</p>
+                        <div class="divider-gradient mx-auto"></div>
+                    </div>
                 </div>
             </div>
 
-            <div class="row g-4 justify-content-center align-items-center">
+            <!-- Partner Grid -->
+            <div class="row g-4 g-lg-6 justify-content-center hover-stack">
                 <!-- Partner 1 -->
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div class="partner-card">
-                        <a href="https://instagram.com/abouttng" target="_blank" class="partner-link">
-                            <img src="https://ik.imagekit.io/bydrz/nala/partner1.webp" alt="About TNG"
-                                class="img-fluid partner-logo" loading="lazy" width="200" height="100">
+                <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                    <div class="partner-card hover-transform">
+                        <a href="https://instagram.com/abouttng" target="_blank" class="partner-link"
+                            data-bs-toggle="tooltip" title="About TNG - Media Partner">
+                            <div class="logo-container">
+                                <img src="https://ik.imagekit.io/bydrz/nala/partner1.webp" alt="About TNG"
+                                    class="partner-logo grayscale" loading="lazy" data-aos="zoom-in">
+                                <div class="partner-overlay">
+                                    <span class="partner-name">About TNG</span>
+                                    <span class="partner-role">Media Partner</span>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
 
                 <!-- Partner 2 -->
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <div class="partner-card">
-                        <a href="https://instagram.com/teman_football" target="_blank" class="partner-link">
-                            <img src="https://ik.imagekit.io/bydrz/nala/partner2.webp" alt="Teman Football"
-                                class="img-fluid partner-logo" loading="lazy" width="200" height="100">
+                <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                    <div class="partner-card hover-transform">
+                        <a href="https://instagram.com/teman_football" target="_blank" class="partner-link"
+                            data-bs-toggle="tooltip" title="Teman Football - Sports Community">
+                            <div class="logo-container">
+                                <img src="https://ik.imagekit.io/bydrz/nala/partner2.webp" alt="Teman Football"
+                                    class="partner-logo grayscale" loading="lazy" data-aos="zoom-in">
+                                <div class="partner-overlay">
+                                    <span class="partner-name">Teman Football</span>
+                                    <span class="partner-role">Sports Partner</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Tambahkan partner lainnya dengan struktur yang sama -->
+            </div>
+
+            <!-- CTA Section -->
+            <div class="row my-4 justify-content-center">
+                <div class="col-10 text-center">
+                    <div class="partner-cta bg-primary-soft p-5 rounded-4" data-aos="fade-up">
+                        <h3 class="h4 mb-3">Bersinergi Membangun Kolaborasi Bermakna</h3>
+                        <p class="text-muted mb-4">Jadilah bagian dari ekosistem kreatif kami. Mari bersama-sama
+                            menciptakan nilai melalui kemitraan yang saling menguntungkan dan berdampak.
+                        </p>
+                        <a href="#contact" class="btn btn-partner px-5">
+                            <i class="bi bi-envelope-paper-heart me-2"></i>Mulai Kerjasama Sekarang
                         </a>
                     </div>
                 </div>
             </div>
-
-            <div class="row mt-4">
-                <div class="col-12 text-center">
-                    <p class="partner-cta mb-0">Ingin menjadi partner? <a href="#contact"
-                            class="partner-cta-link">Hubungi Kami</a></p>
-                </div>
-            </div>
         </div>
+
     </section>
 
 
@@ -443,6 +620,92 @@
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
+    <script>
+        const lightbox = GLightbox({
+            selector: '.glightbox',
+            touchNavigation: true,
+            loop: true,
+            keyboardNavigation: true,
+            openEffect: 'fade',
+            closeEffect: 'fade',
+            moreText: 'Lihat lebih banyak',
+            onOpen: () => {
+                document.body.style.overflow = 'hidden';
+                const loader = document.createElement('div');
+                loader.className = 'glightbox-loader';
+                document.body.appendChild(loader);
+            },
+            onSlideAfterLoad: () => {
+                const loader = document.querySelector('.glightbox-loader');
+                if (loader) loader.remove();
+            }
+        });
+
+        // Social Sharing
+        document.querySelectorAll('.share-btn').forEach(button => {
+            button.addEventListener('click', (e) => {
+                const url = e.currentTarget.dataset.url;
+                const shareText = `Lihat gallery Omah Nala: ${url}`;
+
+                if (navigator.share) {
+                    navigator.share({
+                        title: 'Omah Nala Gallery',
+                        text: shareText,
+                        url: url
+                    });
+                } else {
+                    // Fallback untuk desktop
+                    const shareWindow = window.open(
+                        `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`,
+                        'fb-share-dialog',
+                        'width=626,height=436'
+                    );
+                    return false;
+                }
+            });
+        });
+
+        // EXIF Data Display
+        lightbox.on('slide_before_load', ({ slideIndex, slideNode }) => {
+            const img = slideNode.querySelector('img');
+            if (img) {
+                EXIF.getData(img, function () {
+                    const exifData = EXIF.getAllTags(this);
+                    if (exifData) {
+                        const exifContainer = document.createElement('div');
+                        exifContainer.className = 'exif-data';
+                        exifContainer.innerHTML = `
+                            <p>Camera: ${exifData.Model || 'Unknown'}</p>
+                            <p>Aperture: f/${exifData.FNumber}</p>
+                            <p>Shutter Speed: ${exifData.ExposureTime}</p>
+                            <p>ISO: ${exifData.ISOSpeedRatings}</p>
+                        `;
+                        slideNode.querySelector('.gslide-description').appendChild(exifContainer);
+                    }
+                });
+            }
+        });
+
+        // Download Button
+        lightbox.on('slide_after_load', ({ slideNode }) => {
+            const downloadBtn = document.createElement('button');
+            downloadBtn.className = 'download-btn';
+            downloadBtn.innerHTML = '<i class="bi bi-download"></i> Unduh';
+            downloadBtn.onclick = () => {
+                const imgSrc = slideNode.querySelector('img').src;
+                const link = document.createElement('a');
+                link.href = imgSrc;
+                link.download = `omah-nala-${Date.now()}.jpg`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            };
+            slideNode.querySelector('.gslide-description').prepend(downloadBtn);
+        });
+    </script>
 </body>
 
 </html>
