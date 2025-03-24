@@ -1971,3 +1971,166 @@ img {
   color: var(--primary);
   background-color: #f5d8c2;
 }
+
+
+/* START PAGE ABOUT */
+:root {
+  --primary1: #f0d6b5;  /* Warna utama baru */
+  --primary-dark: #b38f6d;  /* Versi lebih gelap */
+  --primary-light: #efe2d6;  /* Versi lebih terang */
+}
+
+.testimonial-section {
+  background-color: #f7ead9;
+}
+
+/* Penyesuaian untuk semua elemen yang menggunakan primary color */
+
+.icon-wrapper {
+  background-color: var(--primary1) !important;
+}
+
+.icon-wrapper i {
+  font-size: 1.8rem;
+  color: var(--primary-dark);
+}
+.cta-btn.primary,
+.highlight-box,
+.process-icon.bg-primary {
+  background-color: var(--primary1) !important;
+}
+
+.text-primary {
+  color: var(--primary-dark) !important;
+}
+
+/* Penyesuaian hover state */
+.cta-btn.primary:hover {
+  background-color: var(--primary-dark) !important;
+}
+
+.value-card:hover {
+  box-shadow: 0 10px 30px rgba(216, 176, 140, 0.2);
+}
+
+/* Penyesuaian border */
+.map-container {
+  border: 2px solid var(--primary-light);
+}
+
+
+/* === Core Values Section === */
+.core-values {
+  background: var(--light-bg);
+}
+
+.value-card {
+  background: white;
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.icon-wrapper {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrapper i {
+  font-size: 1.75rem;
+  color: white;
+}
+
+/* === Testimonial Section === */
+.testimonial-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  position: relative;
+}
+
+.user-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rating {
+  color: #ffc107;
+  font-size: 0.9rem;
+}
+
+.quote-icon {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  opacity: 0.1;
+  font-size: 3rem;
+}
+
+/* === Location Section === */
+.map-container {
+  border: 2px solid rgba(0,0,0,0.1);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.opening-hours li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* === General Styles === */
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.cta-btn.primary {
+  background: var(--primary);
+  color: white;
+}
+
+.cta-btn.primary:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.cta-btn.outline-light {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.cta-btn.outline-light:hover {
+  background: var(--primary);
+  color: white;
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+  .value-card {
+      margin-bottom: 1.5rem;
+  }
+  
+  .testimonial-card {
+      margin-bottom: 1.5rem;
+  }
+  
+  .map-container {
+      margin-bottom: 2rem;
+  }
+}
